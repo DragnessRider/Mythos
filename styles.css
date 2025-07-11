@@ -1,0 +1,71 @@
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%
+}
+body{
+    background: #17132A;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    background: #363742;
+    font-size: 1.5rem;
+    font-family: 'Georgia', serif;
+    border-bottom: 5px solid #B7BC4D;
+    position: fixed;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: linen
+}
+a:hover{
+    color:bisque
+}
+.content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 5px;
+    color: linen;
+    letter-spacing: 3px;
+}
+.content h1{
+    font-size: 5rem;
+    margin-top: 200px;
+    font-family: 'Verdana', serif;
+    color: #B7BC4D;
+    letter-spacing: 10px;
+}
+.content h2{
+    font-size: 2rem;
+    padding: 15px;
+    font-family: 'Verdana', serif;
+}
+input{
+    width: 400px;
+    padding: 3px;
+    border: 2px solid linen;
+    background: linen;
+    border-radius: 10px;
+}
+input:hover{
+    background: grey;
+    border: 2px solid grey;
+}
